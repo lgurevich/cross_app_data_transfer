@@ -1,0 +1,22 @@
+INFO     root:ContactsApp.py:18 Starting Contacts application
+INFO     root:ContactsApp.py:24 Getting contacts information
+INFO     root:BaseApp.py:30 Locating all elements by: ('ID', 'com.android.contacts:id/cliv_name_textview')
+INFO     root:BaseApp.py:53 Closing active app
+INFO     root:MessagesApp.py:21 Starting Messages Application
+INFO     root:MessagesApp.py:27 Starting a new conversation
+INFO     root:BaseApp.py:42 Clicking on element by: ('ID', 'com.google.android.apps.messaging:id/start_new_conversation_button')
+INFO     root:BaseApp.py:19 Locating element by: ('ID', 'com.google.android.apps.messaging:id/start_new_conversation_button')
+INFO     root:MessagesApp.py:33 Selecting receipient
+INFO     root:BaseApp.py:42 Clicking on element by: ('ID', 'com.google.android.apps.messaging:id/recipient_text_view')
+INFO     root:BaseApp.py:19 Locating element by: ('ID', 'com.google.android.apps.messaging:id/recipient_text_view')
+INFO     root:BaseApp.py:42 Clicking on element by: ('XPATH', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.LinearLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.view.ViewGroup[1]')
+INFO     root:BaseApp.py:19 Locating element by: ('XPATH', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.LinearLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.view.ViewGroup[1]')
+INFO     root:MessagesApp.py:40 Sending a new message
+INFO     root:BaseApp.py:48 Setting data for element by: ('ID', 'com.google.android.apps.messaging:id/compose_message_text') 
+INFO     root:BaseApp.py:19 Locating element by: ('ID', 'com.google.android.apps.messaging:id/compose_message_text')
+INFO     root:BaseApp.py:42 Clicking on element by: ('ID', 'com.google.android.apps.messaging:id/send_message_button_icon')
+INFO     root:BaseApp.py:19 Locating element by: ('ID', 'com.google.android.apps.messaging:id/send_message_button_icon')
+INFO     root:MessagesApp.py:47 Validating if message was sent
+INFO     root:BaseApp.py:30 Locating all elements by: ('ID', 'com.google.android.apps.messaging:id/message_content')
+INFO     root:MessagesApp.py:54 Message was found in a list of messages
+INFO     root:BaseApp.py:53 Closing active app
